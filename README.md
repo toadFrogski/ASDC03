@@ -17,9 +17,13 @@ cd ./ASDC03
 Для запуска необходимо иметь SDK-пакет golang версии 1.20. Добавить проект в $GOPATH и собрать исполняемый бинарник,
 используя команду:
 
+**Windows**
+```powershell
+$GOROOT/bin/go.exe run $GOPATH/ASDC03/cmd/main.go
+```
+**Linux**
 ```sh
-$GOROOT/bin/go.exe run $GOPATH/ASDC03/cmd/main.go   /*(Windows) */
-/usr/bin/go run $GOPATH/ASDC03/cmd/main.go          /*(Linux) */
+/usr/bin/go run $GOPATH/ASDC03/cmd/main.go
 ```
 ### Требования к работе
 ---
